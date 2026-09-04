@@ -1,0 +1,64 @@
+body {
+    background: url("ca.jpg");
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 30%;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.title {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.textfield {
+    box-sizing: border-box;
+    line-height: 1;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    padding: 14px 15px;
+    border: 1px solid rgb(112, 160, 233);
+    border-radius: 5px;
+    width: 100%;
+}
+
+.container label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.button {
+    background-color: #8ea8ea;
+    color: #fff;
+    font-size: 1.2em;
+    padding: 25px 20px;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+}
+
+.container input[value="Sign In"] {
+    font-size: 20px;
+    margin: 9px;
+    padding: 10px 20px;
+    border: none;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
