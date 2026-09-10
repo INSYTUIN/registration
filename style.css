@@ -79,6 +79,11 @@ form {
 .button:hover {
     transform: translateY(-1px);
     box-shadow: 0 20px 36px rgba(20, 184, 166, 0.36);
+.container input[value="Sign In"] {
+    font-size: 40px;
+    margin: 9px;
+    padding: 10px 20px;
+    border: none;
 }
 
 .container a,
